@@ -1,0 +1,43 @@
+{
+  "input_parameters": {
+    "output_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\Y4_20201115_randomforagecuerich_record20_CatGT-output.json",
+    "log_level": "ERROR",
+    "catGT_helper_params": {
+      "run_name": "Y4_20201115_randomforagecuerich_record2",
+      "stream_string": "-ap -ni -lf",
+      "loccar_inner": 2,
+      "trigger_string": "0,0",
+      "catGTPath": "C:\\Users\\Python\\Desktop\\spiketools\\CatGT-win",
+      "gate_string": "0",
+      "car_mode": "gblcar",
+      "cmdStr": "-prb_fld -out_prb_fld -apfilter=butter,12,300,10000 -lffilter=butter,12,1,500 -gfix=0.4,0.10,0.02  -SY=0,-1,6,500 -XA=0,1,3,500 -iXA=1,3,3,0  -XD=-1,1,50 -XD=-1,2,1.7 -XD=-1,3,5 -iXD=-1,3,5",
+      "loccar_outer": 8,
+      "probe_string": "0"
+    },
+    "ephys_params": {
+      "cluster_group_file_name": "cluster_group.tsv",
+      "reorder_lfp_channels": false,
+      "template_zero_padding": 21,
+      "sample_rate": 30000.0,
+      "lfp_sample_rate": 2500.0,
+      "vertical_site_spacing": 1e-05,
+      "ap_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw\\Y4_20201115_randomforagecuerich_record2_g0\\Y4_20201115_randomforagecuerich_record2_g0_imec0\\Y4_20201115_randomforagecuerich_record2_g0_t0.imec0.ap.bin",
+      "num_channels": 385,
+      "reference_channels": [
+        191
+      ],
+      "bit_volts": 2.34375,
+      "probe_type": "NP1",
+      "lfp_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw\\Y4_20201115_randomforagecuerich_record2_g0\\Y4_20201115_randomforagecuerich_record2_g0_imec0\\Y4_20201115_randomforagecuerich_record2_g0_t0.imec0.lf.bin"
+    },
+    "directories": {
+      "kilosort_output_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest",
+      "npx_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw",
+      "ecephys_directory": "C:\\Users\\Python\\Desktop\\ecephys\\ecephys_spike_sorting",
+      "extracted_data_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest",
+      "kilosort_output_tmp": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\temp"
+    },
+    "input_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\Y4_20201115_randomforagecuerich_record20_CatGT-input.json"
+  },
+  "execution_time": 745.8232505321503
+}

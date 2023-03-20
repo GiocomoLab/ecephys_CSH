@@ -1,0 +1,41 @@
+{
+  "execution_time": 19.642493724822998,
+  "input_parameters": {
+    "input_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\A16_220901_splitmazedarkgain_record3_imec0-input.json",
+    "directories": {
+      "kilosort_output_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A16_220901_splitmazedarkgain_record3_g0\\A16_220901_splitmazedarkgain_record3_g0_imec0\\imec0_ks2",
+      "ecephys_directory": "C:\\Users\\Python\\Desktop\\ecephys\\ecephys_spike_sorting",
+      "npx_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw",
+      "kilosort_output_tmp": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\temp",
+      "extracted_data_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A16_220901_splitmazedarkgain_record3_g0\\A16_220901_splitmazedarkgain_record3_g0_imec0"
+    },
+    "log_level": "ERROR",
+    "ephys_params": {
+      "lfp_sample_rate": 2500.0,
+      "probe_type": "NP1",
+      "template_zero_padding": 21,
+      "ap_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A16_220901_splitmazedarkgain_record3_g0\\A16_220901_splitmazedarkgain_record3_g0_imec0\\A16_220901_splitmazedarkgain_record3_g0_tcat.imec0.ap.bin",
+      "reference_channels": [
+        191
+      ],
+      "sample_rate": 30000.0,
+      "reorder_lfp_channels": false,
+      "lfp_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A16_220901_splitmazedarkgain_record3_g0\\A16_220901_splitmazedarkgain_record3_g0_imec0\\A16_220901_splitmazedarkgain_record3_g0_tcat.imec0.lf.bin",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "num_channels": 385,
+      "bit_volts": 2.34375,
+      "vertical_site_spacing": 1e-05
+    },
+    "output_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\A16_220901_splitmazedarkgain_record3_imec0-kilosort_postprocessing-output.json",
+    "ks_postprocessing_params": {
+      "between_unit_dist_um": 42,
+      "between_unit_overlap_window": 0.000333,
+      "within_unit_overlap_window": 0.000333,
+      "deletion_mode": "lowAmpCluster",
+      "include_pcs": false,
+      "cWaves_path": "C:\\Users\\Python\\Desktop\\spiketools\\C_Waves-win",
+      "align_avg_waveform": false,
+      "remove_duplicates": true
+    }
+  }
+}

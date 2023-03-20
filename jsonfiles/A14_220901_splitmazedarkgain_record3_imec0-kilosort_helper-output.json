@@ -1,0 +1,87 @@
+{
+  "kilosort_commit_date": "repository not available",
+  "mask_channels": [],
+  "nTot": 7114040,
+  "kilosort_commit_hash": "repository not available",
+  "input_parameters": {
+    "common_files": {
+      "probe_json": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A14_220901_splitmazedarkgain_record3_g0\\A14_220901_splitmazedarkgain_record3_g0_imec0\\probe_json.json",
+      "settings_json": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw"
+    },
+    "kilosort_helper_params": {
+      "npy_matlab_repository": "C:\\Users\\Python\\Desktop\\KiloSort\\npy-matlab",
+      "ks_make_copy": false,
+      "kilosort2_params": {
+        "nfilt_factor": 4,
+        "Th": "[10,4]",
+        "fproc": "'C:/Users/Python/Desktop/KiloSort/LocalProcessed/temp/temp_wh.dat'",
+        "nNeighbors": 32,
+        "chanMap": "'chanMap.mat'",
+        "momentum": "[20 400]",
+        "finalSplits": 1,
+        "copy_fproc": 0,
+        "whiteningRange": 32,
+        "nPCs": 3,
+        "labelGood": 1,
+        "CSBseed": 1,
+        "ntbuff": 64,
+        "spkTh": -6,
+        "trange": "[0 Inf]",
+        "lam": 10,
+        "nSkipCov": 25,
+        "minfr_goodchannels": 0.1,
+        "CAR": 0,
+        "gain": 2.34375,
+        "LTseed": 1,
+        "AUCsplit": 0.9,
+        "scaleproc": 200,
+        "GPU": 1,
+        "remDup": 0,
+        "minFR": 0.02,
+        "saveRez": 1,
+        "KSver": "2.5",
+        "doFilter": 0,
+        "nskip": 25,
+        "fshigh": 150,
+        "NT": "64*1024 + ops.ntbuff",
+        "ThPre": 8,
+        "useRAM": 0,
+        "sigmaMask": 30,
+        "reorder": 1
+      },
+      "kilosort_repository": "C:\\Users\\Python\\Desktop\\KiloSort\\Kilosort-2.5",
+      "matlab_home_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\temp",
+      "surface_channel_buffer": 15,
+      "kilosort_version": 2,
+      "spikeGLX_data": true
+    },
+    "output_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\A14_220901_splitmazedarkgain_record3_imec0-kilosort_helper-output.json",
+    "ephys_params": {
+      "num_channels": 385,
+      "sample_rate": 30000.0,
+      "lfp_sample_rate": 2500.0,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "reference_channels": [
+        191
+      ],
+      "template_zero_padding": 21,
+      "reorder_lfp_channels": false,
+      "ap_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A14_220901_splitmazedarkgain_record3_g0\\A14_220901_splitmazedarkgain_record3_g0_imec0\\A14_220901_splitmazedarkgain_record3_g0_tcat.imec0.ap.bin",
+      "bit_volts": 2.34375,
+      "vertical_site_spacing": 1e-05,
+      "lfp_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A14_220901_splitmazedarkgain_record3_g0\\A14_220901_splitmazedarkgain_record3_g0_imec0\\A14_220901_splitmazedarkgain_record3_g0_tcat.imec0.lf.bin",
+      "probe_type": "NP1"
+    },
+    "directories": {
+      "npx_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw",
+      "ecephys_directory": "C:\\Users\\Python\\Desktop\\ecephys\\ecephys_spike_sorting",
+      "kilosort_output_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A14_220901_splitmazedarkgain_record3_g0\\A14_220901_splitmazedarkgain_record3_g0_imec0\\imec0_ks2",
+      "extracted_data_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A14_220901_splitmazedarkgain_record3_g0\\A14_220901_splitmazedarkgain_record3_g0_imec0",
+      "kilosort_output_tmp": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\temp"
+    },
+    "input_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\A14_220901_splitmazedarkgain_record3_imec0-input.json",
+    "log_level": "ERROR"
+  },
+  "execution_time": 4280.499636650085,
+  "nTemplate": 349
+}

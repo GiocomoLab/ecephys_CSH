@@ -1,0 +1,43 @@
+{
+  "input_parameters": {
+    "catGT_helper_params": {
+      "gate_string": "0",
+      "stream_string": "-ap -ni -lf",
+      "car_mode": "gblcar",
+      "loccar_outer": 8,
+      "catGTPath": "C:\\Users\\Python\\Desktop\\spiketools\\CatGT-win",
+      "trigger_string": "0,0",
+      "probe_string": "0",
+      "run_name": "Y4_20201116_randomforagecuerich_record3",
+      "loccar_inner": 2,
+      "cmdStr": "-prb_fld -out_prb_fld -apfilter=butter,12,300,10000 -lffilter=butter,12,1,500 -gfix=0.4,0.10,0.02  -SY=0,-1,6,500 -XA=0,1,3,500 -iXA=1,3,3,0  -XD=-1,1,50 -XD=-1,2,1.7 -XD=-1,3,5 -iXD=-1,3,5"
+    },
+    "log_level": "ERROR",
+    "directories": {
+      "kilosort_output_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest",
+      "kilosort_output_tmp": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\temp",
+      "npx_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw",
+      "extracted_data_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest",
+      "ecephys_directory": "C:\\Users\\Python\\Desktop\\ecephys\\ecephys_spike_sorting"
+    },
+    "input_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\Y4_20201116_randomforagecuerich_record30_CatGT-input.json",
+    "ephys_params": {
+      "reference_channels": [
+        191
+      ],
+      "ap_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw\\Y4_20201116_randomforagecuerich_record3_g0\\Y4_20201116_randomforagecuerich_record3_g0_imec0\\Y4_20201116_randomforagecuerich_record3_g0_t0.imec0.ap.bin",
+      "bit_volts": 2.34375,
+      "template_zero_padding": 21,
+      "vertical_site_spacing": 1e-05,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "lfp_sample_rate": 2500.0,
+      "sample_rate": 30000.0,
+      "lfp_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw\\Y4_20201116_randomforagecuerich_record3_g0\\Y4_20201116_randomforagecuerich_record3_g0_imec0\\Y4_20201116_randomforagecuerich_record3_g0_t0.imec0.lf.bin",
+      "reorder_lfp_channels": false,
+      "num_channels": 385,
+      "probe_type": "NP1"
+    },
+    "output_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\Y4_20201116_randomforagecuerich_record30_CatGT-output.json"
+  },
+  "execution_time": 904.7216155529022
+}

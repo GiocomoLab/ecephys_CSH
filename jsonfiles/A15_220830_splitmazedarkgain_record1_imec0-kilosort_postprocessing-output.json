@@ -1,0 +1,41 @@
+{
+  "execution_time": 23.645623207092285,
+  "input_parameters": {
+    "directories": {
+      "kilosort_output_tmp": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\temp",
+      "npx_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw",
+      "extracted_data_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A15_220830_splitmazedarkgain_record1_g0\\A15_220830_splitmazedarkgain_record1_g0_imec0",
+      "ecephys_directory": "C:\\Users\\Python\\Desktop\\ecephys\\ecephys_spike_sorting",
+      "kilosort_output_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A15_220830_splitmazedarkgain_record1_g0\\A15_220830_splitmazedarkgain_record1_g0_imec0\\imec0_ks2"
+    },
+    "ks_postprocessing_params": {
+      "within_unit_overlap_window": 0.000333,
+      "between_unit_dist_um": 42,
+      "remove_duplicates": true,
+      "between_unit_overlap_window": 0.000333,
+      "deletion_mode": "lowAmpCluster",
+      "include_pcs": false,
+      "align_avg_waveform": false,
+      "cWaves_path": "C:\\Users\\Python\\Desktop\\spiketools\\C_Waves-win"
+    },
+    "input_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\A15_220830_splitmazedarkgain_record1_imec0-input.json",
+    "ephys_params": {
+      "template_zero_padding": 21,
+      "reference_channels": [
+        191
+      ],
+      "reorder_lfp_channels": false,
+      "lfp_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A15_220830_splitmazedarkgain_record1_g0\\A15_220830_splitmazedarkgain_record1_g0_imec0\\A15_220830_splitmazedarkgain_record1_g0_tcat.imec0.lf.bin",
+      "bit_volts": 2.34375,
+      "probe_type": "NP1",
+      "num_channels": 385,
+      "vertical_site_spacing": 1e-05,
+      "lfp_sample_rate": 2500.0,
+      "sample_rate": 30000.0,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "ap_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A15_220830_splitmazedarkgain_record1_g0\\A15_220830_splitmazedarkgain_record1_g0_imec0\\A15_220830_splitmazedarkgain_record1_g0_tcat.imec0.ap.bin"
+    },
+    "output_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\A15_220830_splitmazedarkgain_record1_imec0-kilosort_postprocessing-output.json",
+    "log_level": "ERROR"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "input_parameters": {
+    "input_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\A7_210415_randomforagecuerich_record20_CatGT-input.json",
+    "catGT_helper_params": {
+      "stream_string": "-ap -ni -lf",
+      "probe_string": "0",
+      "cmdStr": "-prb_fld -out_prb_fld -apfilter=butter,12,300,10000 -lffilter=butter,12,1,500 -gfix=0.4,0.10,0.02  -SY=0,-1,6,500 -XA=0,1,3,500 -iXA=1,3,3,0  -XD=-1,1,50 -XD=-1,2,1.7 -XD=-1,3,5 -iXD=-1,3,5",
+      "run_name": "A7_210415_randomforagecuerich_record2",
+      "loccar_inner": 2,
+      "gate_string": "0",
+      "catGTPath": "C:\\Users\\Python\\Desktop\\spiketools\\CatGT-win",
+      "car_mode": "gblcar",
+      "trigger_string": "0,0",
+      "loccar_outer": 8
+    },
+    "ephys_params": {
+      "cluster_group_file_name": "cluster_group.tsv",
+      "reference_channels": [
+        191
+      ],
+      "probe_type": "NP1",
+      "sample_rate": 30000.0,
+      "template_zero_padding": 21,
+      "ap_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw\\A7_210415_randomforagecuerich_record2_g0\\A7_210415_randomforagecuerich_record2_g0_imec0\\A7_210415_randomforagecuerich_record2_g0_t0.imec0.ap.bin",
+      "lfp_sample_rate": 2500.0,
+      "bit_volts": 2.34375,
+      "vertical_site_spacing": 1e-05,
+      "num_channels": 385,
+      "reorder_lfp_channels": false,
+      "lfp_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw\\A7_210415_randomforagecuerich_record2_g0\\A7_210415_randomforagecuerich_record2_g0_imec0\\A7_210415_randomforagecuerich_record2_g0_t0.imec0.lf.bin"
+    },
+    "log_level": "ERROR",
+    "output_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\A7_210415_randomforagecuerich_record20_CatGT-output.json",
+    "directories": {
+      "extracted_data_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest",
+      "npx_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw",
+      "ecephys_directory": "C:\\Users\\Python\\Desktop\\ecephys\\ecephys_spike_sorting",
+      "kilosort_output_tmp": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\temp",
+      "kilosort_output_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest"
+    }
+  },
+  "execution_time": 661.7734677791595
+}

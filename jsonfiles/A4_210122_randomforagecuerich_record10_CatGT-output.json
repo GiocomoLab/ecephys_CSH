@@ -1,0 +1,43 @@
+{
+  "input_parameters": {
+    "catGT_helper_params": {
+      "run_name": "A4_210122_randomforagecuerich_record1",
+      "probe_string": "0",
+      "loccar_inner": 2,
+      "cmdStr": "-prb_fld -out_prb_fld -apfilter=butter,12,300,10000 -lffilter=butter,12,1,500 -gfix=0.4,0.10,0.02  -SY=0,-1,6,500 -XA=0,1,3,500 -iXA=1,3,3,0  -XD=-1,1,50 -XD=-1,2,1.7 -XD=-1,3,5 -iXD=-1,3,5",
+      "loccar_outer": 8,
+      "catGTPath": "C:\\Users\\Python\\Desktop\\spiketools\\CatGT-win",
+      "gate_string": "0",
+      "stream_string": "-ap -ni -lf",
+      "car_mode": "gblcar",
+      "trigger_string": "0,0"
+    },
+    "directories": {
+      "ecephys_directory": "C:\\Users\\Python\\Desktop\\ecephys\\ecephys_spike_sorting",
+      "kilosort_output_tmp": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\temp",
+      "kilosort_output_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest",
+      "extracted_data_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest",
+      "npx_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw"
+    },
+    "output_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\A4_210122_randomforagecuerich_record10_CatGT-output.json",
+    "log_level": "ERROR",
+    "ephys_params": {
+      "probe_type": "NP1",
+      "lfp_sample_rate": 2500.0,
+      "ap_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw\\A4_210122_randomforagecuerich_record1_g0\\A4_210122_randomforagecuerich_record1_g0_imec0\\A4_210122_randomforagecuerich_record1_g0_t0.imec0.ap.bin",
+      "bit_volts": 2.34375,
+      "template_zero_padding": 21,
+      "sample_rate": 30000.0,
+      "reorder_lfp_channels": false,
+      "vertical_site_spacing": 1e-05,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "reference_channels": [
+        191
+      ],
+      "num_channels": 385,
+      "lfp_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw\\A4_210122_randomforagecuerich_record1_g0\\A4_210122_randomforagecuerich_record1_g0_imec0\\A4_210122_randomforagecuerich_record1_g0_t0.imec0.lf.bin"
+    },
+    "input_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\A4_210122_randomforagecuerich_record10_CatGT-input.json"
+  },
+  "execution_time": 636.2263991832733
+}

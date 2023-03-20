@@ -1,0 +1,43 @@
+{
+  "input_parameters": {
+    "ephys_params": {
+      "template_zero_padding": 21,
+      "num_channels": 385,
+      "vertical_site_spacing": 1e-05,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "sample_rate": 30000.0,
+      "lfp_sample_rate": 2500.0,
+      "lfp_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw\\A17_220825_splitmazedarkgain_record3_g0\\A17_220825_splitmazedarkgain_record3_g0_imec0\\A17_220825_splitmazedarkgain_record3_g0_t0.imec0.lf.bin",
+      "reference_channels": [
+        191
+      ],
+      "bit_volts": 2.34375,
+      "ap_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw\\A17_220825_splitmazedarkgain_record3_g0\\A17_220825_splitmazedarkgain_record3_g0_imec0\\A17_220825_splitmazedarkgain_record3_g0_t0.imec0.ap.bin",
+      "reorder_lfp_channels": false,
+      "probe_type": "NP1"
+    },
+    "directories": {
+      "ecephys_directory": "C:\\Users\\Python\\Desktop\\ecephys\\ecephys_spike_sorting",
+      "npx_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw",
+      "kilosort_output_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest",
+      "extracted_data_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest",
+      "kilosort_output_tmp": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\temp"
+    },
+    "catGT_helper_params": {
+      "stream_string": "-ap -ni -lf",
+      "cmdStr": "-prb_fld -out_prb_fld -apfilter=butter,12,300,10000 -lffilter=butter,12,1,500 -gfix=0.4,0.10,0.02  -SY=0,-1,6,500 -XA=0,1,3,500 -iXA=1,3,3,0  -XD=-1,1,50 -XD=-1,2,1.7 -XD=-1,3,5 -iXD=-1,3,5",
+      "run_name": "A17_220825_splitmazedarkgain_record3",
+      "gate_string": "0",
+      "trigger_string": "0,0",
+      "probe_string": "0",
+      "car_mode": "gblcar",
+      "catGTPath": "C:\\Users\\Python\\Desktop\\spiketools\\CatGT-win",
+      "loccar_inner": 2,
+      "loccar_outer": 8
+    },
+    "log_level": "ERROR",
+    "input_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\A17_220825_splitmazedarkgain_record30_CatGT-input.json",
+    "output_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\A17_220825_splitmazedarkgain_record30_CatGT-output.json"
+  },
+  "execution_time": 742.4610605239868
+}

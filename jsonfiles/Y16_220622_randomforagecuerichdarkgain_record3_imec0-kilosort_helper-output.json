@@ -1,0 +1,87 @@
+{
+  "execution_time": 3558.568798303604,
+  "mask_channels": [],
+  "input_parameters": {
+    "input_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\Y16_220622_randomforagecuerichdarkgain_record3_imec0-input.json",
+    "kilosort_helper_params": {
+      "kilosort_repository": "C:\\Users\\Python\\Desktop\\KiloSort\\Kilosort-2.5",
+      "ks_make_copy": false,
+      "npy_matlab_repository": "C:\\Users\\Python\\Desktop\\KiloSort\\npy-matlab",
+      "spikeGLX_data": true,
+      "matlab_home_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\temp",
+      "surface_channel_buffer": 15,
+      "kilosort2_params": {
+        "sigmaMask": 30,
+        "chanMap": "'chanMap.mat'",
+        "saveRez": 1,
+        "whiteningRange": 32,
+        "nfilt_factor": 4,
+        "nPCs": 3,
+        "NT": "64*1024 + ops.ntbuff",
+        "LTseed": 1,
+        "reorder": 1,
+        "doFilter": 0,
+        "useRAM": 0,
+        "fshigh": 150,
+        "fproc": "'C:/Users/Python/Desktop/KiloSort/LocalProcessed/temp/temp_wh.dat'",
+        "finalSplits": 1,
+        "remDup": 0,
+        "KSver": "2.5",
+        "spkTh": -6,
+        "minFR": 0.02,
+        "scaleproc": 200,
+        "gain": 2.34375,
+        "copy_fproc": 0,
+        "lam": 10,
+        "nNeighbors": 32,
+        "ntbuff": 64,
+        "trange": "[0 Inf]",
+        "CSBseed": 1,
+        "nskip": 25,
+        "labelGood": 1,
+        "minfr_goodchannels": 0.1,
+        "GPU": 1,
+        "ThPre": 8,
+        "AUCsplit": 0.9,
+        "Th": "[10,4]",
+        "momentum": "[20 400]",
+        "nSkipCov": 25,
+        "CAR": 0
+      },
+      "kilosort_version": 2
+    },
+    "directories": {
+      "kilosort_output_tmp": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\temp",
+      "ecephys_directory": "C:\\Users\\Python\\Desktop\\ecephys\\ecephys_spike_sorting",
+      "extracted_data_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_Y16_220622_randomforagecuerichdarkgain_record3_g0\\Y16_220622_randomforagecuerichdarkgain_record3_g0_imec0",
+      "kilosort_output_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_Y16_220622_randomforagecuerichdarkgain_record3_g0\\Y16_220622_randomforagecuerichdarkgain_record3_g0_imec0\\imec0_ks2",
+      "npx_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw"
+    },
+    "output_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\Y16_220622_randomforagecuerichdarkgain_record3_imec0-kilosort_helper-output.json",
+    "ephys_params": {
+      "template_zero_padding": 21,
+      "reorder_lfp_channels": false,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "vertical_site_spacing": 1e-05,
+      "bit_volts": 2.34375,
+      "num_channels": 385,
+      "reference_channels": [
+        191
+      ],
+      "probe_type": "NP1",
+      "sample_rate": 30000.0,
+      "ap_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_Y16_220622_randomforagecuerichdarkgain_record3_g0\\Y16_220622_randomforagecuerichdarkgain_record3_g0_imec0\\Y16_220622_randomforagecuerichdarkgain_record3_g0_tcat.imec0.ap.bin",
+      "lfp_sample_rate": 2500.0,
+      "lfp_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_Y16_220622_randomforagecuerichdarkgain_record3_g0\\Y16_220622_randomforagecuerichdarkgain_record3_g0_imec0\\Y16_220622_randomforagecuerichdarkgain_record3_g0_tcat.imec0.lf.bin"
+    },
+    "common_files": {
+      "settings_json": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw",
+      "probe_json": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_Y16_220622_randomforagecuerichdarkgain_record3_g0\\Y16_220622_randomforagecuerichdarkgain_record3_g0_imec0\\probe_json.json"
+    },
+    "log_level": "ERROR"
+  },
+  "nTemplate": 568,
+  "kilosort_commit_date": "repository not available",
+  "kilosort_commit_hash": "repository not available",
+  "nTot": 3485269
+}

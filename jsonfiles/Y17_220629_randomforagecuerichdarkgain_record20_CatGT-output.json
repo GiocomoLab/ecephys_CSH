@@ -1,0 +1,43 @@
+{
+  "execution_time": 1966.7535185813904,
+  "input_parameters": {
+    "input_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\Y17_220629_randomforagecuerichdarkgain_record20_CatGT-input.json",
+    "log_level": "ERROR",
+    "directories": {
+      "extracted_data_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest",
+      "npx_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw",
+      "ecephys_directory": "C:\\Users\\Python\\Desktop\\ecephys\\ecephys_spike_sorting",
+      "kilosort_output_tmp": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\temp",
+      "kilosort_output_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest"
+    },
+    "catGT_helper_params": {
+      "probe_string": "0",
+      "loccar_inner": 2,
+      "trigger_string": "0,0",
+      "loccar_outer": 8,
+      "run_name": "Y17_220629_randomforagecuerichdarkgain_record2",
+      "stream_string": "-ap -ni -lf",
+      "car_mode": "gblcar",
+      "cmdStr": "-prb_fld -out_prb_fld -apfilter=butter,12,300,10000 -lffilter=butter,12,1,500 -gfix=0.4,0.10,0.02  -SY=0,-1,6,500 -XA=0,1,3,500 -iXA=1,3,3,0  -XD=-1,1,50 -XD=-1,2,1.7 -XD=-1,3,5 -iXD=-1,3,5",
+      "catGTPath": "C:\\Users\\Python\\Desktop\\spiketools\\CatGT-win",
+      "gate_string": "0"
+    },
+    "ephys_params": {
+      "vertical_site_spacing": 1e-05,
+      "lfp_sample_rate": 2500.0,
+      "reference_channels": [
+        191
+      ],
+      "lfp_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw\\Y17_220629_randomforagecuerichdarkgain_record2_g0\\Y17_220629_randomforagecuerichdarkgain_record2_g0_imec0\\Y17_220629_randomforagecuerichdarkgain_record2_g0_t0.imec0.lf.bin",
+      "sample_rate": 30000.0,
+      "reorder_lfp_channels": false,
+      "ap_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw\\Y17_220629_randomforagecuerichdarkgain_record2_g0\\Y17_220629_randomforagecuerichdarkgain_record2_g0_imec0\\Y17_220629_randomforagecuerichdarkgain_record2_g0_t0.imec0.ap.bin",
+      "probe_type": "NP1",
+      "num_channels": 385,
+      "template_zero_padding": 21,
+      "bit_volts": 2.34375,
+      "cluster_group_file_name": "cluster_group.tsv"
+    },
+    "output_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\Y17_220629_randomforagecuerichdarkgain_record20_CatGT-output.json"
+  }
+}

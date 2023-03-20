@@ -1,0 +1,87 @@
+{
+  "kilosort_commit_hash": "repository not available",
+  "nTot": 11556666,
+  "mask_channels": [],
+  "execution_time": 4885.454159259796,
+  "nTemplate": 1123,
+  "kilosort_commit_date": "repository not available",
+  "input_parameters": {
+    "kilosort_helper_params": {
+      "surface_channel_buffer": 15,
+      "kilosort_repository": "C:\\Users\\Python\\Desktop\\KiloSort\\Kilosort-2.5",
+      "npy_matlab_repository": "C:\\Users\\Python\\Desktop\\KiloSort\\npy-matlab",
+      "matlab_home_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\temp",
+      "kilosort2_params": {
+        "nSkipCov": 25,
+        "GPU": 1,
+        "scaleproc": 200,
+        "nskip": 25,
+        "nPCs": 3,
+        "ThPre": 8,
+        "minFR": 0.02,
+        "finalSplits": 1,
+        "chanMap": "'chanMap.mat'",
+        "fshigh": 150,
+        "minfr_goodchannels": 0.1,
+        "reorder": 1,
+        "nNeighbors": 32,
+        "labelGood": 1,
+        "KSver": "2.5",
+        "Th": "[10,4]",
+        "lam": 10,
+        "useRAM": 0,
+        "trange": "[0 Inf]",
+        "nfilt_factor": 4,
+        "CAR": 0,
+        "NT": "64*1024 + ops.ntbuff",
+        "copy_fproc": 0,
+        "momentum": "[20 400]",
+        "remDup": 0,
+        "AUCsplit": 0.9,
+        "saveRez": 1,
+        "gain": 2.34375,
+        "ntbuff": 64,
+        "fproc": "'C:/Users/Python/Desktop/KiloSort/LocalProcessed/temp/temp_wh.dat'",
+        "spkTh": -6,
+        "doFilter": 0,
+        "sigmaMask": 30,
+        "CSBseed": 1,
+        "whiteningRange": 32,
+        "LTseed": 1
+      },
+      "ks_make_copy": false,
+      "spikeGLX_data": true,
+      "kilosort_version": 2
+    },
+    "log_level": "ERROR",
+    "input_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\Y11_220508_randomforagecuerichdarkgain_record4_imec0-input.json",
+    "ephys_params": {
+      "reorder_lfp_channels": false,
+      "num_channels": 385,
+      "bit_volts": 2.34375,
+      "vertical_site_spacing": 1e-05,
+      "ap_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\Y11_record4\\catgt_Y11_220508_randomforagecuerichdarkgain_record4_g0\\Y11_220508_randomforagecuerichdarkgain_record4_g0_imec0\\Y11_220508_randomforagecuerichdarkgain_record4_g0_tcat.imec0.ap.bin",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "lfp_sample_rate": 2500.0,
+      "template_zero_padding": 21,
+      "reference_channels": [
+        191
+      ],
+      "probe_type": "NP1",
+      "lfp_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\Y11_record4\\catgt_Y11_220508_randomforagecuerichdarkgain_record4_g0\\Y11_220508_randomforagecuerichdarkgain_record4_g0_imec0\\Y11_220508_randomforagecuerichdarkgain_record4_g0_tcat.imec0.lf.bin",
+      "sample_rate": 30000.0
+    },
+    "directories": {
+      "npx_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw",
+      "kilosort_output_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\Y11_record4\\catgt_Y11_220508_randomforagecuerichdarkgain_record4_g0\\Y11_220508_randomforagecuerichdarkgain_record4_g0_imec0\\imec0_ks2",
+      "kilosort_output_tmp": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\temp",
+      "extracted_data_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\Y11_record4\\catgt_Y11_220508_randomforagecuerichdarkgain_record4_g0\\Y11_220508_randomforagecuerichdarkgain_record4_g0_imec0",
+      "ecephys_directory": "C:\\Users\\Python\\Desktop\\ecephys\\ecephys_spike_sorting"
+    },
+    "output_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\Y11_220508_randomforagecuerichdarkgain_record4_imec0-kilosort_helper-output.json",
+    "common_files": {
+      "settings_json": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw",
+      "probe_json": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\Y11_record4\\catgt_Y11_220508_randomforagecuerichdarkgain_record4_g0\\Y11_220508_randomforagecuerichdarkgain_record4_g0_imec0\\probe_json.json"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "input_parameters": {
+    "ks_postprocessing_params": {
+      "within_unit_overlap_window": 0.000333,
+      "between_unit_dist_um": 42,
+      "align_avg_waveform": false,
+      "deletion_mode": "lowAmpCluster",
+      "between_unit_overlap_window": 0.000333,
+      "include_pcs": false,
+      "cWaves_path": "C:\\Users\\Python\\Desktop\\spiketools\\C_Waves-win",
+      "remove_duplicates": true
+    },
+    "input_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\A17_220828_splitmazedarkgain_record6_imec0-input.json",
+    "ephys_params": {
+      "ap_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A17_220828_splitmazedarkgain_record6_g0\\A17_220828_splitmazedarkgain_record6_g0_imec0\\A17_220828_splitmazedarkgain_record6_g0_tcat.imec0.ap.bin",
+      "sample_rate": 30000.0,
+      "reorder_lfp_channels": false,
+      "lfp_sample_rate": 2500.0,
+      "reference_channels": [
+        191
+      ],
+      "bit_volts": 2.34375,
+      "template_zero_padding": 21,
+      "vertical_site_spacing": 1e-05,
+      "lfp_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A17_220828_splitmazedarkgain_record6_g0\\A17_220828_splitmazedarkgain_record6_g0_imec0\\A17_220828_splitmazedarkgain_record6_g0_tcat.imec0.lf.bin",
+      "probe_type": "NP1",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "num_channels": 385
+    },
+    "output_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\A17_220828_splitmazedarkgain_record6_imec0-kilosort_postprocessing-output.json",
+    "directories": {
+      "kilosort_output_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A17_220828_splitmazedarkgain_record6_g0\\A17_220828_splitmazedarkgain_record6_g0_imec0\\imec0_ks2",
+      "kilosort_output_tmp": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\temp",
+      "npx_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw",
+      "ecephys_directory": "C:\\Users\\Python\\Desktop\\ecephys\\ecephys_spike_sorting",
+      "extracted_data_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A17_220828_splitmazedarkgain_record6_g0\\A17_220828_splitmazedarkgain_record6_g0_imec0"
+    },
+    "log_level": "ERROR"
+  },
+  "execution_time": 30.133569478988647
+}

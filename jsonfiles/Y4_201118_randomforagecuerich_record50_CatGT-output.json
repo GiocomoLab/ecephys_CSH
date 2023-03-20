@@ -1,0 +1,43 @@
+{
+  "input_parameters": {
+    "directories": {
+      "kilosort_output_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest",
+      "extracted_data_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest",
+      "npx_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw",
+      "ecephys_directory": "C:\\Users\\Python\\Desktop\\ecephys\\ecephys_spike_sorting",
+      "kilosort_output_tmp": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\temp"
+    },
+    "ephys_params": {
+      "bit_volts": 2.34375,
+      "reference_channels": [
+        191
+      ],
+      "vertical_site_spacing": 1e-05,
+      "lfp_sample_rate": 2500.0,
+      "probe_type": "NP1",
+      "num_channels": 385,
+      "lfp_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw\\Y4_201118_randomforagecuerich_record5_g0\\Y4_201118_randomforagecuerich_record5_g0_imec0\\Y4_201118_randomforagecuerich_record5_g0_t0.imec0.lf.bin",
+      "ap_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw\\Y4_201118_randomforagecuerich_record5_g0\\Y4_201118_randomforagecuerich_record5_g0_imec0\\Y4_201118_randomforagecuerich_record5_g0_t0.imec0.ap.bin",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "reorder_lfp_channels": false,
+      "sample_rate": 30000.0,
+      "template_zero_padding": 21
+    },
+    "input_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\Y4_201118_randomforagecuerich_record50_CatGT-input.json",
+    "output_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\Y4_201118_randomforagecuerich_record50_CatGT-output.json",
+    "catGT_helper_params": {
+      "trigger_string": "0,0",
+      "run_name": "Y4_201118_randomforagecuerich_record5",
+      "cmdStr": "-prb_fld -out_prb_fld -apfilter=butter,12,300,10000 -lffilter=butter,12,1,500 -gfix=0.4,0.10,0.02  -SY=0,-1,6,500 -XA=0,1,3,500 -iXA=1,3,3,0  -XD=-1,1,50 -XD=-1,2,1.7 -XD=-1,3,5 -iXD=-1,3,5",
+      "probe_string": "0",
+      "catGTPath": "C:\\Users\\Python\\Desktop\\spiketools\\CatGT-win",
+      "stream_string": "-ap -ni -lf",
+      "loccar_outer": 8,
+      "car_mode": "gblcar",
+      "loccar_inner": 2,
+      "gate_string": "0"
+    },
+    "log_level": "ERROR"
+  },
+  "execution_time": 701.4860877990723
+}

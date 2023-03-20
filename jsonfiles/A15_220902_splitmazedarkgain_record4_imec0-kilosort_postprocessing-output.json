@@ -1,0 +1,41 @@
+{
+  "execution_time": 176.3295693397522,
+  "input_parameters": {
+    "output_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\A15_220902_splitmazedarkgain_record4_imec0-kilosort_postprocessing-output.json",
+    "ks_postprocessing_params": {
+      "between_unit_overlap_window": 0.000333,
+      "align_avg_waveform": false,
+      "include_pcs": false,
+      "deletion_mode": "lowAmpCluster",
+      "cWaves_path": "C:\\Users\\Python\\Desktop\\spiketools\\C_Waves-win",
+      "between_unit_dist_um": 42,
+      "within_unit_overlap_window": 0.000333,
+      "remove_duplicates": true
+    },
+    "directories": {
+      "kilosort_output_tmp": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\temp",
+      "kilosort_output_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A15_220902_splitmazedarkgain_record4_g0\\A15_220902_splitmazedarkgain_record4_g0_imec0\\imec0_ks2",
+      "npx_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw",
+      "ecephys_directory": "C:\\Users\\Python\\Desktop\\ecephys\\ecephys_spike_sorting",
+      "extracted_data_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A15_220902_splitmazedarkgain_record4_g0\\A15_220902_splitmazedarkgain_record4_g0_imec0"
+    },
+    "log_level": "ERROR",
+    "ephys_params": {
+      "probe_type": "NP1",
+      "reorder_lfp_channels": false,
+      "reference_channels": [
+        191
+      ],
+      "vertical_site_spacing": 1e-05,
+      "ap_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A15_220902_splitmazedarkgain_record4_g0\\A15_220902_splitmazedarkgain_record4_g0_imec0\\A15_220902_splitmazedarkgain_record4_g0_tcat.imec0.ap.bin",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "lfp_sample_rate": 2500.0,
+      "template_zero_padding": 21,
+      "num_channels": 385,
+      "lfp_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A15_220902_splitmazedarkgain_record4_g0\\A15_220902_splitmazedarkgain_record4_g0_imec0\\A15_220902_splitmazedarkgain_record4_g0_tcat.imec0.lf.bin",
+      "sample_rate": 30000.0,
+      "bit_volts": 2.34375
+    },
+    "input_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\A15_220902_splitmazedarkgain_record4_imec0-input.json"
+  }
+}

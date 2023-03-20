@@ -1,0 +1,43 @@
+{
+  "input_parameters": {
+    "input_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\A16_220902_splitmazedarkgain_record40_CatGT-input.json",
+    "ephys_params": {
+      "lfp_sample_rate": 2500.0,
+      "vertical_site_spacing": 1e-05,
+      "reorder_lfp_channels": false,
+      "ap_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw\\A16_220902_splitmazedarkgain_record4_g0\\A16_220902_splitmazedarkgain_record4_g0_imec0\\A16_220902_splitmazedarkgain_record4_g0_t0.imec0.ap.bin",
+      "sample_rate": 30000.0,
+      "lfp_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw\\A16_220902_splitmazedarkgain_record4_g0\\A16_220902_splitmazedarkgain_record4_g0_imec0\\A16_220902_splitmazedarkgain_record4_g0_t0.imec0.lf.bin",
+      "reference_channels": [
+        191
+      ],
+      "template_zero_padding": 21,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "num_channels": 385,
+      "bit_volts": 2.34375,
+      "probe_type": "NP1"
+    },
+    "output_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\A16_220902_splitmazedarkgain_record40_CatGT-output.json",
+    "log_level": "ERROR",
+    "directories": {
+      "npx_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw",
+      "kilosort_output_tmp": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\temp",
+      "kilosort_output_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest",
+      "extracted_data_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest",
+      "ecephys_directory": "C:\\Users\\Python\\Desktop\\ecephys\\ecephys_spike_sorting"
+    },
+    "catGT_helper_params": {
+      "cmdStr": "-prb_fld -out_prb_fld -apfilter=butter,12,300,10000 -lffilter=butter,12,1,500 -gfix=0.4,0.10,0.02  -SY=0,-1,6,500 -XA=0,1,3,500 -iXA=1,3,3,0  -XD=-1,1,50 -XD=-1,2,1.7 -XD=-1,3,5 -iXD=-1,3,5",
+      "catGTPath": "C:\\Users\\Python\\Desktop\\spiketools\\CatGT-win",
+      "run_name": "A16_220902_splitmazedarkgain_record4",
+      "trigger_string": "0,0",
+      "probe_string": "0",
+      "car_mode": "gblcar",
+      "loccar_outer": 8,
+      "loccar_inner": 2,
+      "gate_string": "0",
+      "stream_string": "-ap -ni -lf"
+    }
+  },
+  "execution_time": 2625.2747135162354
+}

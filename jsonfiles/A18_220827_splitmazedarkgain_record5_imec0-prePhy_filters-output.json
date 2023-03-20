@@ -1,0 +1,49 @@
+{
+  "quality_metrics_output_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A18_220827_splitmazedarkgain_record5_g0\\A18_220827_splitmazedarkgain_record5_g0_imec0\\imec0_ks2\\metrics.csv",
+  "execution_time": 0.1250002384185791,
+  "input_parameters": {
+    "waveform_metrics": {
+      "waveform_metrics_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A18_220827_splitmazedarkgain_record5_g0\\A18_220827_splitmazedarkgain_record5_g0_imec0\\imec0_ks2\\waveform_metrics.csv"
+    },
+    "directories": {
+      "extracted_data_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A18_220827_splitmazedarkgain_record5_g0\\A18_220827_splitmazedarkgain_record5_g0_imec0",
+      "ecephys_directory": "C:\\Users\\Python\\Desktop\\ecephys\\ecephys_spike_sorting",
+      "npx_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw",
+      "kilosort_output_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A18_220827_splitmazedarkgain_record5_g0\\A18_220827_splitmazedarkgain_record5_g0_imec0\\imec0_ks2",
+      "kilosort_output_tmp": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\temp"
+    },
+    "input_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\A18_220827_splitmazedarkgain_record5_imec0-input.json",
+    "prephy_filters_params": {
+      "contam_rate_max": 25.0,
+      "mua_fr_min": 0.1,
+      "depth": 3200,
+      "halfwidth_max": 0.3,
+      "repo_slope": 0.0,
+      "snr_min": 1.0,
+      "good_fr_min": 0.1,
+      "wide_halfwidth_max": 0.3,
+      "isi_viol_max": 0.4
+    },
+    "ephys_params": {
+      "reorder_lfp_channels": false,
+      "template_zero_padding": 21,
+      "lfp_sample_rate": 2500.0,
+      "ap_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A18_220827_splitmazedarkgain_record5_g0\\A18_220827_splitmazedarkgain_record5_g0_imec0\\A18_220827_splitmazedarkgain_record5_g0_tcat.imec0.ap.bin",
+      "sample_rate": 30000.0,
+      "probe_type": "NP1",
+      "vertical_site_spacing": 1e-05,
+      "bit_volts": 2.34375,
+      "reference_channels": [
+        191
+      ],
+      "num_channels": 385,
+      "cluster_group_file_name": "cluster_group.tsv",
+      "lfp_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A18_220827_splitmazedarkgain_record5_g0\\A18_220827_splitmazedarkgain_record5_g0_imec0\\A18_220827_splitmazedarkgain_record5_g0_tcat.imec0.lf.bin"
+    },
+    "cluster_metrics": {
+      "cluster_metrics_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A18_220827_splitmazedarkgain_record5_g0\\A18_220827_splitmazedarkgain_record5_g0_imec0\\imec0_ks2\\metrics.csv"
+    },
+    "log_level": "ERROR",
+    "output_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\A18_220827_splitmazedarkgain_record5_imec0-prePhy_filters-output.json"
+  }
+}

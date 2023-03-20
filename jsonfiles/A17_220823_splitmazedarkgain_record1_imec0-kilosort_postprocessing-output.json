@@ -1,0 +1,41 @@
+{
+  "input_parameters": {
+    "ephys_params": {
+      "lfp_sample_rate": 2500.0,
+      "reorder_lfp_channels": false,
+      "vertical_site_spacing": 1e-05,
+      "num_channels": 385,
+      "bit_volts": 2.34375,
+      "template_zero_padding": 21,
+      "reference_channels": [
+        191
+      ],
+      "sample_rate": 30000.0,
+      "probe_type": "NP1",
+      "cluster_group_file_name": "cluster_group.tsv",
+      "ap_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A17_220823_splitmazedarkgain_record1_g0\\A17_220823_splitmazedarkgain_record1_g0_imec0\\A17_220823_splitmazedarkgain_record1_g0_tcat.imec0.ap.bin",
+      "lfp_band_file": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A17_220823_splitmazedarkgain_record1_g0\\A17_220823_splitmazedarkgain_record1_g0_imec0\\A17_220823_splitmazedarkgain_record1_g0_tcat.imec0.lf.bin"
+    },
+    "output_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\A17_220823_splitmazedarkgain_record1_imec0-kilosort_postprocessing-output.json",
+    "ks_postprocessing_params": {
+      "remove_duplicates": true,
+      "include_pcs": false,
+      "align_avg_waveform": false,
+      "within_unit_overlap_window": 0.000333,
+      "between_unit_dist_um": 42,
+      "between_unit_overlap_window": 0.000333,
+      "cWaves_path": "C:\\Users\\Python\\Desktop\\spiketools\\C_Waves-win",
+      "deletion_mode": "lowAmpCluster"
+    },
+    "directories": {
+      "extracted_data_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A17_220823_splitmazedarkgain_record1_g0\\A17_220823_splitmazedarkgain_record1_g0_imec0",
+      "kilosort_output_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\ecephystest\\catgt_A17_220823_splitmazedarkgain_record1_g0\\A17_220823_splitmazedarkgain_record1_g0_imec0\\imec0_ks2",
+      "ecephys_directory": "C:\\Users\\Python\\Desktop\\ecephys\\ecephys_spike_sorting",
+      "npx_directory": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalRaw",
+      "kilosort_output_tmp": "C:\\Users\\Python\\Desktop\\KiloSort\\LocalProcessed\\temp"
+    },
+    "input_json": "C:\\Users\\Python\\Desktop\\ecephys\\jsonfiles\\A17_220823_splitmazedarkgain_record1_imec0-input.json",
+    "log_level": "ERROR"
+  },
+  "execution_time": 84.6098952293396
+}
